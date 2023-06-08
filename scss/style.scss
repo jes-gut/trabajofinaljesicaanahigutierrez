@@ -1,0 +1,46 @@
+
+
+
+ *{
+    margin: 0 ; 
+    padding: 0
+}
+header {background-image: url(../imagenes/descarga.jpg);
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;}
+ 
+    @media (min-width:768px) {
+        body header { 
+            height: 400px;
+        }
+    }
+footer{background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footer_icons {
+    display: block;
+    margin: 20px;}
+
+.logo {width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.subtitulo {
+    margin: 30px;
+}
+.card-title {text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: gray;
+    
+}
+@import "variables"
